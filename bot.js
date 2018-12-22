@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-    client.user.setGame(` M. `,'https://www.twitch.tv/g2k')
+    client.user.setGame(` - `,'https://www.twitch.tv/k')
 
 });
 client.login(process.env.BOT_TOKEN);

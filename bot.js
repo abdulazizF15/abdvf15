@@ -1,7 +1,17 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
-client.on('ready', () => {
-    client.user.setGame(` Vendetta. `,'https://www.twitch.tv/IDK')
+///////////////////////////////////////////////////////////
 
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+///////////////////////////////////////////////////////////
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+  client.user.setGame(` الكلام `,'https://www.twitch.tv/MeeRcY')
+  client.user.setStatus("idle")
 });
+
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
 client.login(process.env.BOT_TOKEN);

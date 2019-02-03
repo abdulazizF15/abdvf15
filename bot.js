@@ -7,7 +7,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(` الكلام `,'https://www.twitch.tv/MeeRcY')
+  client.user.setGame(` M. `,'https://www.twitch.tv/IDK')
   client.user.setStatus("idle")
 });
 

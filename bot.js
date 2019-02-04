@@ -2,7 +2,7 @@
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    client.user.setActivity(" ماتدري ان قلبي يعشق عيونك؟. ",{type: 'LISTENING'})
+    client.user.setActivity(" كل شي(ن) صار في ساعة غضب . ",{type: 'LISTENING'})
     client.user.setStatus("idle")
 
 });

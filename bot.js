@@ -5,7 +5,7 @@ const abdulaziz = new D1.Client();
 const a7q9 = new D2.Client();
 /////////////////////////////////////////////////
 abdulaziz.on('ready', () => {
-abdulaziz.user.setGame(` Vendetta. `,'https://www.twitch.tv/idk')
+abdulaziz.user.setGame(` - `,'https://www.twitch.tv/idk')
 });
 a7q9.on('ready', () => {
 a7q9.user.setGame(` You. `,'https://www.twitch.tv/idk')

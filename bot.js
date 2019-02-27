@@ -33,4 +33,4 @@ if (message.content.startsWith('Mst')) {
    message.channel.send(`Done.`)
 }
 });
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.AZIZ);
